@@ -1,3 +1,7 @@
+## Mini Plaid
+
+- A small project to initialize payment processing with the Plaid API.
+
 Setting up the Plaid API without Docker
 
 ```
@@ -15,4 +19,18 @@ npm install
 
 # Start the backend app
 ./start.sh
+```
+
+Running the Frontend
+
+```
+# Install dependencies
+cd quickstart/frontend
+
+npm install
+
+# Start the frontend app
+npm start
+
+# Go to http://localhost:3000
 ```
